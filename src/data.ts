@@ -3,7 +3,7 @@ export const profile = {
   brand: "Kamal",
   email: "kmlrohilla7065130@gmail.com",
   location: "New Delhi, India",
-  cv: "Kamal_Rohilla_CV.pdf",
+  cv: "Kamal Rohilla.pdf",
   photo: "assets/kamal.jpg",
   socials: [
     { label: "Email", href: "mailto:kmlrohilla7065130@gmail.com", external: false },
