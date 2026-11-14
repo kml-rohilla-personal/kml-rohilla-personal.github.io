@@ -45,11 +45,25 @@ export const skills: Skill[] = [
 
 export const experience = [
   {
+    badge: "S3",
+    role: "Senior Software Developer — Frontend",
+    company: "Sign3 Labs",
+    companyHref: "https://sign3.ai/",
+    when: "Aug 2026 — Present",
+    location: "Gurugram, India",
+    bullets: [
+      "Built the <b>Next.js 16 marketing platform</b> (App Router, Tailwind v4) from design handoff — a template-driven module system with desktop and mobile layouts, shipping the RASP, MFA and SIM Binding product pages.",
+      "Made the site <b>fully CMS-driven on Strapi</b> with a sync pipeline that deploys copy changes <b>without overwriting editors' work</b>, plus the blog, Authors system and SEO layer (JSON-LD, breadcrumbs, social cards).",
+      "Shipped the <b>brochure lead-gate</b> — a paced email exchange with work-email validation (disposable-domain list, MX lookup) and CMS-managed PDFs.",
+      "Raised the quality bar: a design-token <b>type scale</b>, Playwright <b>visual-parity baselines</b> with sharded CI, and a Next 15 / React 19 upgrade that cut dependency vulnerabilities from 86 to 3; also shipped API Hub and Address Intelligence in the Device Intelligence app.",
+    ],
+  },
+  {
     badge: "VI",
     role: "Frontend Web Engineer",
     company: "Virtual Internships",
     companyHref: "https://web.virtualinternships.com/",
-    when: "Dec 2023 — Present",
+    when: "Dec 2023 — Jul 2026",
     location: "London, UK (remote)",
     bullets: [
       "Architected the <b>interview scheduling system</b> end-to-end — custom React Big Calendar wrapper, constraint-based booking, and hardened Google Calendar OAuth sync; 4.4/5 across 1,000+ bookings.",
@@ -69,6 +83,8 @@ export const experience = [
       "Led the complete <b>owner-side dashboard revamp</b>, driving a 20% increase in user interactions through redesigned IA and CTA hierarchy.",
       "Built a <b>Package Pricing Overlay</b> that drove a 30% lift in CTA conversions and reached 100% rollout within one month.",
       "Owned the <b>A/B testing program across 8 features</b> — designed variants, analysed behavioural data, and optimised key user flows.",
+      "Revamped the <b>Leads Page</b> for owners by merging Potential Leads into a single view, streamlining workflow and improving conversion rates.",
+      "Rebuilt the <b>package deletion, activation and repost flow</b> with a payment-gated modal for free-listing users, so posts publish only after payment.",
     ],
   },
   {
