@@ -120,7 +120,7 @@ export const projects: Project[] = [
       "Command palette, keyboard shortcuts, filters/search, labels, and per-user light/dark theming; shipped to Vercel + GitHub Pages via CI.",
     ],
     live: "https://kamal-rohilla-kanban-board.vercel.app",
-    code: "https://github.com/Kamal77-coder/kanban-board",
+    code: "https://github.com/kml-rohilla-personal/kanban-board",
   },
 ];
 
